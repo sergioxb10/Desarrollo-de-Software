@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Registro</title>
+</head>
+<body>
+
+    <header class="header">
+        
+        <div id="“nav_drawer" class="header__drawer">
+            
+            <div  class="header__drawer--menu">
+                <img src="imagenes/Menu.png" alt="Usuario">
+                <p>Menu</p>                    
+            </div>
+            
+            <ul>
+                <li><a href="index.html"><button id="buttonini_nav">Inicio</button></a></li>
+                <li><a href="aspectosGenerales.html"><button id="“buttonaspgen_nav”">Aspectos generales</button></a></li>
+            </ul>
+            
+        </div>
+
+        <h1>Registro</h1>
+
+        <a href="/"><img class="header__img" src="imagenes/Tienda.png" alt="logo compañia"></a>
+        
+    </header>
+
+    <main class="main">
+        <div id="formRegistro" class="main__formRegistro">
+
+            <div class="main__formRegistro__contendorInputLabel">
+                <div class="main__formRegistro__contendorLabel">
+                    <label id="lblnombreCompleto" for="nombreCompleto">Nombre Completo</label>
+                </div>
+                <div class="main__formRegistro__contendorInput">
+                    <input type="text">
+                </div>
+            </div>
+            
+            <div class="main__formRegistro__contendorInputLabel">
+                <div class="main__formRegistro__contendorLabel">
+                    <label id="lblcorreoElectronico" for="correoElectronico">Correo Electrónico</label>
+                </div>
+                <div class="main__formRegistro__contendorInput">
+                    <input type="email">
+                </div>
+            </div>
+
+            <div class="main__formRegistro__contendorInputLabel">
+                
+                <div class="main__formRegistro__contendorLabel">
+                    <label id="lblcontrasena" for="contrasena">contraseña</label>
+                </div>
+                
+                <div class="main__formRegistro__contendorInput">
+                    <input type="contrasena">
+                </div>
+            
+            </div>
+            
+            <div class="main__formRegistro__contendorInputLabel">
+                
+                <div class="main__formRegistro__contendorLabel">
+                    <label id="lblconfirmarContrasena" for="confirmarContrasena">confirmar contraseña</label>
+                </div>
+                
+                <div class="main__formRegistro__contendorInput">
+                    <input type="confirmarContrasena">
+                </div>
+            
+            </div>
+            
+            <div class="main__formRegistro__contendorInputLabel">
+                
+                <div class="main__formRegistro__contendorLabel">
+                    <label id="lbltelefonoMovil" for="telefonoMovil">teléfono móvil</label>
+                </div>
+                
+                <div class="main__formRegistro__contendorInput">
+                    <input type="telefonoMovil">
+                </div>
+            
+            </div>
+
+            <div class="main__formRegistro__contendorInputLabel">
+                
+                <div class="main__formRegistro__contendorLabel">
+                    ¿Eres mayor de edad?
+                </div>
+                
+                <div class="main__formRegistro__contendorInputLabel--check">
+                    
+                    <div class="main__formRegistro__contendorLabel--check">
+                        <label id="lbltelefonoMovil" for="telefonoMovil">Si</label>
+                    </div>
+                    
+                    <div class="main__formRegistro__contendorInput--check">
+                        <input id="siMayorEdad" name="siNoMayorEdad" type="radio">
+                    </div>
+                    
+                </div>
+                
+                <div class="main__formRegistro__contendorInputLabel--check">
+                    
+                    <div class="main__formRegistro__contendorLabel--check">
+                        <label id="lbltelefonoMovil" for="telefonoMovil">No</label>
+                    </div>
+                    
+                    <div class="main__formRegistro__contendorInput--check">
+                        <input id="noMayorEdad" name="siNoMayorEdad" type="radio">
+                    </div>
+                
+                </div>
+
+                <button>Registrar</button>
+
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>
